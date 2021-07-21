@@ -14,23 +14,43 @@ const CREATE_INPUT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
+  name: "exampleName",
+  surname: "exampleSurname",
+  moneyTotal: "exampleMoneyTotal",
+  dateBirth: new Date(),
+  subscriptionDate: new Date(),
 };
 const CREATE_RESULT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
+  name: "exampleName",
+  surname: "exampleSurname",
+  moneyTotal: "exampleMoneyTotal",
+  dateBirth: new Date(),
+  subscriptionDate: new Date(),
 };
 const FIND_MANY_RESULT = [
   {
     id: "exampleId",
     createdAt: new Date(),
     updatedAt: new Date(),
+    name: "exampleName",
+    surname: "exampleSurname",
+    moneyTotal: "exampleMoneyTotal",
+    dateBirth: new Date(),
+    subscriptionDate: new Date(),
   },
 ];
 const FIND_ONE_RESULT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
+  name: "exampleName",
+  surname: "exampleSurname",
+  moneyTotal: "exampleMoneyTotal",
+  dateBirth: new Date(),
+  subscriptionDate: new Date(),
 };
 
 const service = {
@@ -98,6 +118,8 @@ describe("Customer", () => {
         ...CREATE_RESULT,
         createdAt: CREATE_RESULT.createdAt.toISOString(),
         updatedAt: CREATE_RESULT.updatedAt.toISOString(),
+        dateBirth: CREATE_RESULT.dateBirth.toISOString(),
+        subscriptionDate: CREATE_RESULT.subscriptionDate.toISOString(),
       });
   });
 
@@ -110,6 +132,8 @@ describe("Customer", () => {
           ...FIND_MANY_RESULT[0],
           createdAt: FIND_MANY_RESULT[0].createdAt.toISOString(),
           updatedAt: FIND_MANY_RESULT[0].updatedAt.toISOString(),
+          dateBirth: FIND_MANY_RESULT[0].dateBirth.toISOString(),
+          subscriptionDate: FIND_MANY_RESULT[0].subscriptionDate.toISOString(),
         },
       ]);
   });
@@ -133,6 +157,8 @@ describe("Customer", () => {
         ...FIND_ONE_RESULT,
         createdAt: FIND_ONE_RESULT.createdAt.toISOString(),
         updatedAt: FIND_ONE_RESULT.updatedAt.toISOString(),
+        dateBirth: FIND_ONE_RESULT.dateBirth.toISOString(),
+        subscriptionDate: FIND_ONE_RESULT.subscriptionDate.toISOString(),
       });
   });
 
