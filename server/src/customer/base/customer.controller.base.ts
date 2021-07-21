@@ -60,6 +60,11 @@ export class CustomerControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
+        name: true,
+        surname: true,
+        moneyTotal: true,
+        dateBirth: true,
+        subscriptionDate: true,
       },
     });
   }
@@ -97,6 +102,11 @@ export class CustomerControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
+        name: true,
+        surname: true,
+        moneyTotal: true,
+        dateBirth: true,
+        subscriptionDate: true,
       },
     });
     return results.map((result) => permission.filter(result));
@@ -129,6 +139,11 @@ export class CustomerControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
+        name: true,
+        surname: true,
+        moneyTotal: true,
+        dateBirth: true,
+        subscriptionDate: true,
       },
     });
     if (result === null) {
@@ -182,6 +197,11 @@ export class CustomerControllerBase {
           id: true,
           createdAt: true,
           updatedAt: true,
+          name: true,
+          surname: true,
+          moneyTotal: true,
+          dateBirth: true,
+          subscriptionDate: true,
         },
       });
     } catch (error) {
@@ -215,6 +235,11 @@ export class CustomerControllerBase {
           id: true,
           createdAt: true,
           updatedAt: true,
+          name: true,
+          surname: true,
+          moneyTotal: true,
+          dateBirth: true,
+          subscriptionDate: true,
         },
       });
     } catch (error) {

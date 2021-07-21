@@ -14,6 +14,11 @@ export const CustomerShow = (props: ShowProps): React.ReactElement => {
         <TextField label="ID" source="id" />
         <DateField source="createdAt" label="Created At" />
         <DateField source="updatedAt" label="Updated At" />
+        <TextField label="Name" source="name" />
+        <TextField label="Surname" source="surname" />
+        <TextField label="Money Total" source="moneyTotal" />
+        <TextField label="Date Birth" source="dateBirth" />
+        <TextField label="Subscription Date" source="subscriptionDate" />
       </SimpleShowLayout>
     </Show>
   );
