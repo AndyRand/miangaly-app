@@ -72,5 +72,16 @@ class CustomerWhereInput {
     nullable: true,
   })
   subscriptionDate?: DateTimeNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  newField?: StringNullableFilter;
 }
 export { CustomerWhereInput };

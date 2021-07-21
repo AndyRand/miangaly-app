@@ -27,4 +27,5 @@ model Customer {
   moneyTotal       String?
   dateBirth        DateTime?
   subscriptionDate DateTime?
+  newField         String?
 }

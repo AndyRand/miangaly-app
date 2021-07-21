@@ -58,5 +58,16 @@ class CustomerCreateInput {
     nullable: true,
   })
   subscriptionDate?: Date | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  newField?: string | null;
 }
 export { CustomerCreateInput };

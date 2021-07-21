@@ -9,4 +9,5 @@ export type CustomerOrderByInput = {
   moneyTotal?: SortOrder;
   dateBirth?: SortOrder;
   subscriptionDate?: SortOrder;
+  newField?: SortOrder;
 };

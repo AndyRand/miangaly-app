@@ -19,6 +19,7 @@ export const CustomerShow = (props: ShowProps): React.ReactElement => {
         <TextField label="Money Total" source="moneyTotal" />
         <TextField label="Date Birth" source="dateBirth" />
         <TextField label="Subscription Date" source="subscriptionDate" />
+        <TextField label="NewField" source="newField" />
       </SimpleShowLayout>
     </Show>
   );

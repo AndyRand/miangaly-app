@@ -65,6 +65,7 @@ export class CustomerControllerBase {
         moneyTotal: true,
         dateBirth: true,
         subscriptionDate: true,
+        newField: true,
       },
     });
   }
@@ -107,6 +108,7 @@ export class CustomerControllerBase {
         moneyTotal: true,
         dateBirth: true,
         subscriptionDate: true,
+        newField: true,
       },
     });
     return results.map((result) => permission.filter(result));
@@ -144,6 +146,7 @@ export class CustomerControllerBase {
         moneyTotal: true,
         dateBirth: true,
         subscriptionDate: true,
+        newField: true,
       },
     });
     if (result === null) {
@@ -202,6 +205,7 @@ export class CustomerControllerBase {
           moneyTotal: true,
           dateBirth: true,
           subscriptionDate: true,
+          newField: true,
         },
       });
     } catch (error) {
@@ -240,6 +244,7 @@ export class CustomerControllerBase {
           moneyTotal: true,
           dateBirth: true,
           subscriptionDate: true,
+          newField: true,
         },
       });
     } catch (error) {
