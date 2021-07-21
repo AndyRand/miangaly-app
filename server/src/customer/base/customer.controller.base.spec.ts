@@ -19,6 +19,7 @@ const CREATE_INPUT = {
   moneyTotal: "exampleMoneyTotal",
   dateBirth: new Date(),
   subscriptionDate: new Date(),
+  newField: "exampleNewField",
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -29,6 +30,7 @@ const CREATE_RESULT = {
   moneyTotal: "exampleMoneyTotal",
   dateBirth: new Date(),
   subscriptionDate: new Date(),
+  newField: "exampleNewField",
 };
 const FIND_MANY_RESULT = [
   {
@@ -40,6 +42,7 @@ const FIND_MANY_RESULT = [
     moneyTotal: "exampleMoneyTotal",
     dateBirth: new Date(),
     subscriptionDate: new Date(),
+    newField: "exampleNewField",
   },
 ];
 const FIND_ONE_RESULT = {
@@ -51,6 +54,7 @@ const FIND_ONE_RESULT = {
   moneyTotal: "exampleMoneyTotal",
   dateBirth: new Date(),
   subscriptionDate: new Date(),
+  newField: "exampleNewField",
 };
 
 const service = {

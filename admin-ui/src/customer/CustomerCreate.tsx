@@ -16,6 +16,7 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
         <TextInput label="Money Total" source="moneyTotal" />
         <DateTimeInput label="Date Birth" source="dateBirth" />
         <DateTimeInput label="Subscription Date" source="subscriptionDate" />
+        <TextInput label="NewField" source="newField" />
       </SimpleForm>
     </Create>
   );

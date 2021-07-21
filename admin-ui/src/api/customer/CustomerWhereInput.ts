@@ -9,4 +9,5 @@ export type CustomerWhereInput = {
   moneyTotal?: StringNullableFilter;
   dateBirth?: DateTimeNullableFilter;
   subscriptionDate?: DateTimeNullableFilter;
+  newField?: StringNullableFilter;
 };

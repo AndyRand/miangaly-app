@@ -78,6 +78,15 @@ class CustomerOrderByInput {
     nullable: true,
   })
   subscriptionDate?: SortOrder;
+
+  @ApiProperty({
+    required: false,
+    enum: ["Asc", "Desc"],
+  })
+  @Field(() => SortOrder, {
+    nullable: true,
+  })
+  newField?: SortOrder;
 }
 
 export { CustomerOrderByInput };

@@ -4,4 +4,5 @@ export type CustomerCreateInput = {
   moneyTotal?: string | null;
   dateBirth?: Date | null;
   subscriptionDate?: Date | null;
+  newField?: string | null;
 };
